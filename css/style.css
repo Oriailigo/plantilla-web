@@ -216,6 +216,10 @@ button {
      float: left;
      margin: 0;
      padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: baseline;
+     gap: 2rem;
 }
 
 
@@ -1132,3 +1136,12 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #3fe43d solid 2px;
 }
+
+.footer .btn.btn-link::before {
+     position: relative;
+     content: "\f105";
+     font-family: "Font Awesome 5 Free";
+     font-weight: 900;
+     color: var(--primary);
+     margin-right: 10px;
+ }
