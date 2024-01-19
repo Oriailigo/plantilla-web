@@ -308,7 +308,7 @@ button {
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     min-height: 804px;
+     min-height: 544px;
      padding-top: 5%;
 }
 
@@ -462,7 +462,7 @@ button {
 
 .about .titlepage {
      text-align: left;
-     margin-top: 41%;
+     margin-top: 12%;
      padding-bottom: 0;
      margin-right: -20px;
 }
