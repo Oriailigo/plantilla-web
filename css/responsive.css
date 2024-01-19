@@ -274,6 +274,9 @@
         font-size: 44px;
         line-height: 55px;
     }
+    .text-bg{
+        text-align: center;
+    }
     .titlepage{
         margin-top: 2rem;
     }

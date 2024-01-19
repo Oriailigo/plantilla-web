@@ -42,6 +42,13 @@
              h1 br {
                  display: none; /* Ocultar el <br> en dispositivos con ancho de pantalla menor o igual a 600px */
              }
+             .columna{
+               display: flex!important;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               gap:0.5rem;
+            }
          }
          .centrar{
             justify-content: center!important;
@@ -57,6 +64,7 @@
             align-items: center;
             gap:0.5rem;
          }
+      
          .small-icon {
             font-size: 0.75em; /* Ajustar el tamaño según sea necesario */
         }
@@ -146,7 +154,7 @@
                            <!-- primer info -->
                            <div class="col-md-7 offset-md-0">
                               <div class="text-bg">
-                                 <h1> ¿Tenes que  <br>mudarte?</h1>
+                                 <h1 class="green"> ¿Tenes que  <br>mudarte?</h1>
                                  <span>Años de trayectoria nos avalan.</span>
                                  <a class="read_more" href="Javascript:void(0)">Llamanos ahora</a>
                               </div>
@@ -156,7 +164,7 @@
                               <div class="row">
                                  <div class="col-md-12">
                                     <div class="titlepage">
-                                       <h2>¿Cómo podemos ayudarte?</h2>
+                                       <h2 class="green">¿Cómo podemos ayudarte?</h2>
                                     </div>
                                  </div>
                               </div>
@@ -239,7 +247,7 @@
                   <div class="titlepage">
                      <h2>Sobre <span class="green">Nosotros</span></h2>
                      <p>Somos una empresa especializada en transportar tu vida de un sitio a otro.</p>
-                     <br>
+                     
                      <p>Cuidando cada detalle y cada uno de tus objetos personales para que tu mudanza sea lo más amena posible.</p>
                      <!-- <a class="read_more" href="Javascript:void(0)"> Leer más</a> -->
                   </div>
@@ -267,14 +275,14 @@
                <div class="col-md-12">
                   <div class="row centrar">
                      <div class="col-md-4 col-sm-6">
-                        <div class="service_box">
+                        <div class="service_box columna">
                            <i><img src="images/service1.png" alt="#"/></i>
                            <h3>Mudanzas parciales</h3>
                            <p>¿Tenés que transportar unas cajas únicamente? Contá con nosotros</p>
                         </div>
                      </div>
                      <div class="col-md-4 col-sm-6">
-                        <div class="service_box">
+                        <div class="service_box columna">
                            <i><img src="images/service2.png" alt="#"/></i>
                            <h3>Mudanzas completas</h3>
                            <p>¿Tenés que mudarte de nuevo a tu ciudad? Contá con nosotros</p>
@@ -326,7 +334,7 @@
                </div>
                <div class="col-md-4 col-sm-6">
                   <div class="gallery_img">
-                     <figure><img src="images/gallery1.jpg" alt="#"/></figure>
+                     <figure><img src="images/gallery1.png" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-4 col-sm-6">
@@ -675,25 +683,25 @@
                   <div class="col-md-4 col-sm-6">
                      <h3>Enlaces rápidos</h3>
                      <ul class="link_menu">
-                        <li class="fila"> <i class="fas fa-circle small-icon"></i> <a href="#myCarousel">¿Qué necesitas transportar? </a></li>
-                        <li class="fila"> <i class="fas fa-circle small-icon"></i> <a href="#about"> Sobre Nosotros</a></li>
-                        <li class="fila"> <i class="fas fa-circle small-icon"></i> <a href="#service">Nuestros servicios</a></li>
-                        <li class="fila"> <i class="fas fa-circle small-icon"></i> <a href="#gallery">Anteriores mudanzas</a></li>
-                        <li class="fila"> <i class="fas fa-circle small-icon"></i> <a href="#testimonial">Lo que opinan nuestros clientes</a></li>
+                        <li class="fila green"> <i class="fas fa-circle small-icon"></i> <a href="#myCarousel">¿Qué necesitas transportar? </a></li>
+                        <li class="fila green"> <i class="fas fa-circle small-icon"></i> <a href="#about"> Sobre Nosotros</a></li>
+                        <li class="fila green"> <i class="fas fa-circle small-icon"></i> <a href="#service">Nuestros servicios</a></li>
+                        <li class="fila green"> <i class="fas fa-circle small-icon"></i> <a href="#gallery">Anteriores mudanzas</a></li>
+                        <li class="fila green"> <i class="fas fa-circle small-icon"></i> <a href="#testimonial">Lo que opinan nuestros clientes</a></li>
                         
                      </ul>
                   </div>
                   <div class="col-md-2 col-sm-6">
                      <h3>Horarios</h3>
                      <ul class="link_menu">
-                        <li><p>Lunes - Viernes </p></li>
-                        <li><p class="variat">09:00 am - 07:00 pm</p></li>
+                        <li><p class="variat">Lunes - Viernes </p></li>
+                        <li><p class="green">09:00 am - 07:00 pm</p></li>
 
-                        <li><p>Sábado </p></li>
-                        <li><p class="variat">09:00 am - 12:00 pm</p></li>
+                        <li><p class="variat">Sábado </p></li>
+                        <li><p class="green">09:00 am - 12:00 pm</p></li>
 
-                        <li><p>Domingo </p></li>
-                        <li><p class="variat">Cerrado</p></li>
+                        <li><p class="variat">Domingo </p></li>
+                        <li><p class="green">Cerrado</p></li>
                      </ul>
                   </div>
                   <!-- <div class="col-md-6 offset-md-6">
