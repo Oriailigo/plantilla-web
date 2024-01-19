@@ -321,7 +321,7 @@ button {
      right: 0;
      left: 0;
      padding: 0;
-     bottom: 0;
+     margin-bottom: 2rem;
 }
 
 .text-bg h1 {

@@ -268,11 +268,14 @@
     }
     .banner {
         min-height: 550px;
-        padding-top: 37%;
+        padding-top: 8%;
     }
     .text-bg h1 {
         font-size: 44px;
         line-height: 55px;
+    }
+    .titlepage{
+        margin-top: 2rem;
     }
     #myCarousel a.carousel-control-next {
         right: 32.5%;
