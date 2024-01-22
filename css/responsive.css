@@ -270,6 +270,12 @@
 }
 
 @media (max-width: 575px) {
+    .centrartitulo{
+        text-align: center!important;
+    }
+    .about_img {
+        padding: 0px 0px 0px 0px;
+   }
     .header {
         height: 122px;
     }

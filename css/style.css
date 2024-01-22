@@ -327,7 +327,9 @@ button {
           padding-top: 2%;
          
      }
+     
  }
+
 .text-bg {
      text-align: left;
 }
@@ -499,16 +501,6 @@ button {
      padding: 40px 30px 45px 30px;
 }
 
-.about_img::before {
-     position: absolute;
-     content: "";
-     background: grey;
-     top: 0;
-     height: 100%;
-     width: 452px;
-     right: 0;
-     border-radius: 5px;
-}
 
 .about_img figure {
      margin: 0;
