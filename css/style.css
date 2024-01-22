@@ -308,7 +308,7 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/banner1.jpg);
+     background: url(../images/Banner.webp);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -490,7 +490,7 @@ button {
 .about_img::before {
      position: absolute;
      content: "";
-     background: url(../images/vg.png);
+     background: grey;
      top: 0;
      height: 100%;
      width: 452px;
