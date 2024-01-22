@@ -74,7 +74,12 @@
         right: -40%;
     }
     .footer h3 {
-        font-size: 26px;
+        font-size: 26px!important;
+    }
+}
+@media (max-width: 768px){
+    .footer h3 {
+        font-size: 21px!important;
     }
 }
 
@@ -256,6 +261,13 @@
         display: none;
     }
 }
+/* Estilos para dispositivos móviles */
+@media(max-width: 575px) {
+    .d_flex {
+       
+        flex-direction: column-reverse;
+    }
+}
 
 @media (max-width: 575px) {
     .header {
@@ -343,7 +355,7 @@
     }
     #testimon .carousel-control-prev,
     #testimon .carousel-control-next {
-        top: 107%;
+        top: 0%;
     }
     #testimon a.carousel-control-next {
         right: 20%;
@@ -355,7 +367,7 @@
         margin-bottom: 25px;
     }
     .variat {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .main_form .send_btn {
         margin-bottom: 30px;

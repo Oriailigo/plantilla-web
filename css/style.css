@@ -330,7 +330,7 @@ button {
 
 .text-bg h1 {
      color: #000;
-     font-size: 85px;
+     font-size: 75px;
      line-height: 96px;
      padding-bottom: 0px;
      font-weight: bold;
@@ -829,9 +829,9 @@ button {
      display: block;
 }
 
-.text_humai i img {
+/* .text_humai i img {
      margin-top: -60px;
-}
+} */
 
 .text_humai p {
      color: #fff;
@@ -976,7 +976,7 @@ button {
 
 .footer h3 {
      font-weight: 400;
-     font-size: 30px;
+     font-size: 25px;
      line-height: 23px;
      text-align: left;
      color: #fff;
